@@ -1,0 +1,56 @@
+@import '../../variables.module.scss';
+
+@media (min-width:320px) {
+  
+}
+
+@media (min-width: 760px) {
+
+  .header {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .main_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    padding: 10px;
+    letter-spacing: 0.25px;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 21px;
+    color: $black;
+    border: 2px solid $mint;
+
+    &:hover {
+      color: $white;
+      background-color: $mint;
+    }
+  }
+
+ 
+  .header_links {
+      padding: 10px;
+      margin-left: 25px;
+      border: 2px solid $mint;
+      border-radius: 8px;
+      background-color: transparent;
+      font-size: 18px;
+      letter-spacing: 0.15px;
+      color: $black;
+      
+      &:hover {
+        color: $white;
+        background-color: $mint;
+      }
+    }
+
+  
+
+}
